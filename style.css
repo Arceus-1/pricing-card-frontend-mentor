@@ -127,3 +127,16 @@ button:hover{
     opacity: 0.8;
     line-height: 20px;
 }
+
+@media (max-width:650px){
+    .monthly-subscription, .why-us, .card{
+        width: auto;
+        height: auto;
+    }  
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
